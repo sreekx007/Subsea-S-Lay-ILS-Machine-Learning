@@ -1,0 +1,64 @@
+record_id,study_section,behavior_type,component_type,case_id,pipeline_od_mm,pipeline_wt_mm,stinger_radius_m,tension_mt,component_wt_mm,component_wt_ratio,component_length_mm,component_length_d,taper_ratio_denominator,taper_length_d,shroud_l1_d,shroud_l2_d,offset_depth_d,intercomponent_spacing_d,thick_pipe_location,contact_regime,governing_phase,peak_strain_pct,analytical_strain_pct,peak_bending_moment_knm,x3_strain_pct,x4_strain_pct,peak_location,source_table,source_pdf_page,source_note
+ILS-001,VI Study 1,Baseline,plain_pipe,Config_70,406,21,70,120,,,,,,,,,,,,,Phase 1,0.46,,,,,pipeline,X,20,
+ILS-002,VI Study 1,Baseline,plain_pipe,Config_85,406,21,85,120,,,,,,,,,,,,,Phase 1,0.38,,,,,pipeline,X,20,
+ILS-003,VI Study 1,Baseline,plain_pipe,Config_105,406,21,105,120,,,,,,,,,,,,,Phase 1,0.32,,,,,pipeline,X,20,
+ILS-004,VI Study 2,Baseline,plain_pipe,OD168_T0,168,21,70,0,,,,,,,,,,,,,Phase 1,0.13,0.12,,,,pipeline,XI,21,FEA is 8% above analytical value
+ILS-005,VI Study 2,Baseline,plain_pipe,OD168_T100,168,21,70,100,,,,,,,,,,,,,Phase 1,0.29,,,,,pipeline,XI,21,
+ILS-006,VI Study 2,Baseline,plain_pipe,OD406_T0,406,21,70,0,,,,,,,,,,,,,Phase 1,0.33,0.29,,,,pipeline,XI,21,FEA is 14% above analytical value
+ILS-007,VI Study 2,Baseline,plain_pipe,OD406_T100,406,21,70,100,,,,,,,,,,,,,Phase 1,0.42,,,,,pipeline,XI,21,
+ILS-008,VI Study 2,Baseline,plain_pipe,OD508_T0,508,21,70,0,,,,,,,,,,,,,Phase 1,0.42,0.36,,,,pipeline,XI,21,FEA is 17% above analytical value
+ILS-009,VI Study 2,Baseline,plain_pipe,OD508_T100,508,21,70,100,,,,,,,,,,,,,Phase 1,0.54,,,,,pipeline,XI,21,
+ILS-010,VII,A1,tapered_transition,Case_1,406.4,21,70,120,65,3.1,1000,2.5,4,0.43,,,,,,,,1.14,,1413,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-011,VII,A1,tapered_transition,Case_2,406.4,21,70,120,65,3.1,1000,2.5,16,1.7,,,,,,,,1.19,,1478,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-012,VII,A1,tapered_transition,Case_3,406.4,21,70,120,65,3.1,1000,2.5,64,6.9,,,,,,,,2.58,,1720,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-013,VII,A1,tapered_transition,Case_4,406.4,21,85,120,65,3.1,1000,2.5,4,0.43,,,,,,,,0.91,,1390,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-014,VII,A1,tapered_transition,Case_5,406.4,21,85,120,65,3.1,1000,2.5,16,1.7,,,,,,,,0.94,,1471,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-015,VII,A1,tapered_transition,Case_6,406.4,21,85,120,65,3.1,1000,2.5,64,6.9,,,,,,,,1.27,,1711,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-016,VII,A1,tapered_transition,Case_7,406.4,21,100,120,65,3.1,1000,2.5,4,0.43,,,,,,,,0.65,,1330,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-017,VII,A1,tapered_transition,Case_8,406.4,21,100,120,65,3.1,1000,2.5,16,1.7,,,,,,,,0.69,,1384,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-018,VII,A1,tapered_transition,Case_9,406.4,21,100,120,65,3.1,1000,2.5,64,6.9,,,,,,,,0.87,,1659,,,strain: straight pipe/transition junction; BM: thick-section body,XIV and XV,24-26,
+ILS-019,VIII Study 1,A1,thick_section,A1_R70,406.4,21,70,100,32,1.5,1000,2.5,,,,,,,,,Phase 1,0.562,,1311,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-020,VIII Study 1,A1,thick_section,A1_R85,406.4,21,85,100,32,1.5,1000,2.5,,,,,,,,,Phase 1,0.473,,1251,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-021,VIII Study 1,A1,thick_section,A1_R100,406.4,21,100,100,32,1.5,1000,2.5,,,,,,,,,Phase 1,0.339,,1131,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-022,VIII Study 1,A1,thick_section,A2_R70,406.4,21,70,100,42,2,1000,2.5,,,,,,,,,Phase 1,0.647,,1347,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-023,VIII Study 1,A1,thick_section,A2_R85,406.4,21,85,100,42,2,1000,2.5,,,,,,,,,Phase 1,0.508,,1288,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-024,VIII Study 1,A1,thick_section,A2_R100,406.4,21,100,100,42,2,1000,2.5,,,,,,,,,Phase 1,0.358,,1144,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-025,VIII Study 1,A1,thick_section,A3_R70,406.4,21,70,100,53,2.5,1000,2.5,,,,,,,,,Phase 1,0.727,,1366,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-026,VIII Study 1,A1,thick_section,A3_R85,406.4,21,85,100,53,2.5,1000,2.5,,,,,,,,,Phase 1,0.556,,1311,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-027,VIII Study 1,A1,thick_section,A3_R100,406.4,21,100,100,53,2.5,1000,2.5,,,,,,,,,Phase 1,0.425,,1150,,,strain: pipe/component junction; BM: component midspan,XX and XXI,29,
+ILS-028,VIII Study 2,A1,thick_section,B1_R70,406.4,21,70,100,65,3.1,1000,2.5,,,,,,,,,,0.78,,1384,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-029,VIII Study 2,A1,thick_section,B2_R70,406.4,21,70,100,65,3.1,4000,10,,,,,,,,,,1.499,,1650,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-030,VIII Study 2,A1,thick_section,B3_R70,406.4,21,70,100,65,3.1,8000,20,,,,,,,,,,2.514,,2223,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-031,VIII Study 2,A1,thick_section,B2_R85,406.4,21,85,100,53,2.5,4000,10,,,,,,,,,,1.104,,1581,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-032,VIII Study 2,A1,thick_section,B3_R85,406.4,21,85,100,53,2.5,8000,20,,,,,,,,,,1.861,,1977,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-033,VIII Study 2,A1,thick_section,B4_R85,406.4,21,85,100,53,2.5,16000,40,,,,,,,,,,1.914,,2883,,,strain: pipe/component junction; BM: component midspan,XXIII and XXIV,30-31,
+ILS-034,VIII Study 3,A1,two_thick_sections,C1,406.4,21,70,100,65,3.1,1000,2.5,,,,,,2.5,,,,0.771,,1384,,,,XXVI,33,Table XXV conflicts with Table XXVI on component lengths/spacings for C2-C3; Table XXVI values retained because it is the results table.
+ILS-035,VIII Study 3,A1,two_thick_sections,C2,406.4,21,70,100,65,3.1,1000,2.5,,,,,,10,,,,0.76,,1371,,,,XXVI,33,Table XXV conflicts with Table XXVI on component lengths/spacings for C2-C3; Table XXVI values retained because it is the results table.
+ILS-036,VIII Study 3,A1,two_thick_sections,C3,406.4,21,70,100,65,3.1,1000,2.5,,,,,,20,,,,0.751,,1365,,,,XXVI,33,Table XXV conflicts with Table XXVI on component lengths/spacings for C2-C3; Table XXVI values retained because it is the results table.
+ILS-037,IX,B1,offset_shroud,S3-2,406.4,21,85,100,,,,,,,10,2.5,0.75,,,,Phase 2,0.62,,,0.42,0.35,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-038,IX,B1,offset_shroud,S3-3,406.4,21,85,100,,,,,,,10,2.5,1,,,,Phase 2,0.7,,,0.55,0.43,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-039,IX,B1,offset_shroud,S1-1,406.4,21,70,120,,,,,,,5,2.5,1,,,,Phase 2,0.81,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-040,IX,B1,offset_shroud,S1-2,406.4,21,70,120,,,,,,,6,2,1,,,,Phase 2,0.83,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-041,IX,B1,offset_shroud,S2-1,406.4,21,70,100,,,,,,,2.5,2,1,,,,Phase 2,0.78,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-042,IX,B1,offset_shroud,S2-2,406.4,21,70,100,,,,,,,4,5,1,,,,Phase 2,0.75,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-043,IX,B1,offset_shroud,S2-3,406.4,21,70,100,,,,,,,10,5,1,,,,Phase 2,0.76,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-044,IX,B1,offset_shroud,S2-4,406.4,21,70,100,,,,,,,10,1,1,,,,Phase 2,0.79,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-045,IX,B1,offset_shroud,S3-4,406.4,21,85,100,,,,,,,10,2.5,1.5,,,,Phase 2,0.95,,,0.75,0.58,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-046,IX,B1,offset_shroud,S1-3,406.4,21,70,120,,,,,,,5,2.5,1.5,,,,Phase 2,0.97,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-047,IX,B1,offset_shroud,S1-4,406.4,21,70,120,,,,,,,6,2,1.5,,,,Phase 2,1.05,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-048,IX,B1,offset_shroud,S2-5,406.4,21,70,100,,,,,,,10,5,1.5,,,,Phase 2,1.03,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-049,IX,B1,offset_shroud,S1-6,406.4,21,70,120,,,,,,,2.5,2,1,,,,Phase 2,0.83,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-050,IX,B1,offset_shroud,S1-7,406.4,21,70,120,,,,,,,2.5,2,1.5,,,,Phase 2,1.17,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-051,IX,B1,offset_shroud,S3-5,406.4,21,85,100,,,,,,,10,2.5,2,,,,Phase 2,1.2,,,0.88,0.58,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-052,IX,B1,offset_shroud,S1-5,406.4,21,70,120,,,,,,,5,2.5,2,,,,Phase 2,1.15,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-053,IX,B1,offset_shroud,S2-6,406.4,21,70,100,,,,,,,10,5,2,,,single_roller,Phase 2,1.23,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-054,IX,B1,offset_shroud,S2-7,406.4,21,70,100,,,,,,,25,2,2,,,single_roller,Phase 2,0.66,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,One source case has separate values for single- and dual-roller contact.
+ILS-055,IX,B1,offset_shroud,S2-7,406.4,21,70,100,,,,,,,25,2,2,,,dual_roller,Phase 2,0.55,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,One source case has separate values for single- and dual-roller contact.
+ILS-056,IX,B1,offset_shroud,S2-8,406.4,21,70,100,,,,,,,50,2,2,,,dual_roller,Phase 2,0.59,,,,,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-057,IX,B1,offset_shroud,S3-6,406.4,21,85,100,,,,,,,10,2.5,2.5,,,,Phase 2,1.51,,,1.07,0.62,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-058,IX,B1,offset_shroud,S3-7,406.4,21,85,100,,,,,,,10,2.5,3,,,,Phase 2,1.8,,,1.2,0.67,X2 catenary-side deep section,XXX and XXXIV,35-39,
+ILS-059,X Series 1,C1,shroud_plus_thick_pipe,C1,406.4,21,85,100,,,,5,,,10,2.5,1,,X3_centered,,Phase 2,0.952,,1405,,,X2,XXXIX,42,Thick-pipe wall thickness is not stated in Section X. partly extends into X2 and X4
+ILS-060,X Series 1,C1,shroud_plus_thick_pipe,C2,406.4,21,85,100,,,,10,,,10,2.5,1,,spans_X2_X3_X4,,Phase 2,1.26,,1555,,,X2,XXXIX,42,Thick-pipe wall thickness is not stated in Section X.
+ILS-061,X Series 2,C1,shroud_plus_thick_pipe,C1,406.4,21,85,100,,,,2.5,,,10,2.5,1,,X2,,Phase 2,0.901,,1362,,0.49,X2,XLI,44,Thick-pipe wall thickness is not stated in Section X.
+ILS-062,X Series 2,C1,shroud_plus_thick_pipe,C2,406.4,21,85,100,,,,2.5,,,10,2.5,1,,X3,,Phase 2,0.744,,1310,,0.59,X2,XLI,44,"Thick-pipe wall thickness is not stated in Section X. Narrative later mentions 0.737% for this case; Table XLI reports 0.744%, which is retained."
+ILS-063,X Series 2,C1,shroud_plus_thick_pipe,C3,406.4,21,85,100,,,,2.5,,,10,2.5,1,,X4,,Phase 2,0.744,,1271,,0.57,X2,XLI,44,Thick-pipe wall thickness is not stated in Section X.
